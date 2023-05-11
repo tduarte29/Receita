@@ -1,0 +1,104 @@
+
+
+body{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url('https://www.thespruce.com/thmb/DgWOCWQFmI_XA2WvgoRUoMRH82g=/4000x0/filters:no_upscale():max_bytes(150000):strip_icc()/6.TheRealShakerKitchen-deVOL_LOW-RES-54236e94592044d689d64287cacb33f7.jpg');
+    
+    background-size:cover;
+}
+
+
+h1{
+    color: tomato;
+}
+
+
+.modm{
+    font-family: Dancing Script;
+    font-size: 40px;
+    position: relative;
+    left: 50px;
+    top: 10px;
+    
+}
+
+.modp{
+    font-family: Dancing Script;
+    font-size: 40px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    display: block
+}
+
+.listc{
+    font-size: 18px;
+   font-family: Philosopher;
+    margin-top: 100px;
+    justify-content: center;
+    
+}
+
+.listm{
+    font-family: Philosopher;
+    font-size: 18px;
+    position: relative;
+    top: 20px;
+    justify-content: center;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    margin-left: 400px;
+    border-radius: 50%;
+    margin-top: 150px;
+    float: right ;
+    margin-right: 80px;
+    display: block;
+    position: relative;
+    clear: both;
+}
+
+.next{   
+    width: 150px;
+    height: 45px;
+    background: tomato;
+    border: none;
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+   
+}
+.next i {
+    position: relative;
+    top: 0.5px;
+    margin-left: 5px;
+    align-items: center;
+    display:flexbox;
+}
+
+.next:hover{
+    background-color: #fff;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.gbox{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url('https://w0.peakpx.com/wallpaper/259/523/HD-wallpaper-crumpled-paper-texture-white-crumpled-paper-background-paper-texture-white-paper-crumpled-paper.jpg');
+    width: 600px;
+    height: 950px;
+    margin-bottom: 100px;
+    border: 2px solid black;
+    border-radius: 5%;
+    border-style: double;
+    box-shadow: 20px 20px 20x rgba(0, 0, 0, 0.2);
+}

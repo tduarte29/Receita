@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url('https://img.freepik.com/fotos-premium/conceito-de-comida-saborosa-com-espaco-de-nhoque-para-texto_185193-77787.jpg?w=2000');
+    background-size:cover;
+    background-color: #fff;
+}
+
+section nav .logo img{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    margin-left: 210px;
+    padding: 0;
+}
+
+.box{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url('https://w0.peakpx.com/wallpaper/259/523/HD-wallpaper-crumpled-paper-texture-white-crumpled-paper-background-paper-texture-white-paper-crumpled-paper.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: gray;
+    border: 2px solid black;
+    margin-left: 150px;
+    width: 320px;
+    height: 450px;
+    border-radius: 5%;
+    border-style: double;
+    box-shadow: 20px 20px 20x rgba(0, 0, 0, 0.2);
+
+}
+
+.list{
+    font-family: Dancing Script;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    list-style-type:circle;
+    position:relative;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+#ingre {
+    font-family: Dancing Script;
+    margin-left: 80px;
+    color: tomato;
+    
+}
+
+#ingrem{
+    font-family: Dancing Script;
+    font-size: 30px;
+    margin-left: 30px;
+    color: tomato;
+
+}
+
+h1 {
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+    
+}
+
+.next{   
+    width: 150px;
+    height: 45px;
+    background: tomato;
+    border: none;
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+   
+}
+.next i {
+    position: relative;
+    top: 0.5px;
+    margin-left: 5px;
+    align-items: center;
+    display:flexbox;
+}
+
+.next:hover{
+    background-color: #fff;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+

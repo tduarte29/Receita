@@ -1,0 +1,113 @@
+.ctt{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.ctt h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 55px;
+}
+
+.ctt h1 span{
+    color: tomato;
+    margin-right: 15px;
+    font-family: mv boli;
+}
+
+.ctt h1 span::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: tomato;
+    display: block;
+    position: relative;
+    bottom: 15px;
+}
+
+.ctt .ctt_princi{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ctt .ctt_princi .ctt_image img{
+    width: 600px;
+}
+
+.ctt .ctt_princi form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 10px;
+}
+
+.ctt .ctt_princi form .input p{
+    line-height: 25px;
+}
+
+.ctt .ctt_princi form .input{
+    margin: 5px;
+}
+
+.ctt .ctt_princi form .input input{
+    width: 300px;
+    height: 35px;
+    padding: 0 10px;
+    border: 2px solid #cccccc;
+    background: #eeeeee;
+    outline: none;
+    border-radius: 3px;
+}
+
+.ctt .ctt_princi form .input input:focus{
+    border: 2px solid tomato;
+}
+
+.ctt .ctt_princi form .ctt_btn{
+    padding: 10px 0;
+    background: tomato;
+    color: white;
+    width: 40%;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.next{   
+    width: 150px;
+    height: 45px;
+    background: tomato;
+    border: none;
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+   
+}
+.next i {
+    position: relative;
+    top: -1px;
+    margin-left: 5px;
+    align-items: center;
+    display:flexbox;
+}
+
+.next:hover{
+    background-color: #fff;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
